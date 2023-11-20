@@ -5,13 +5,12 @@
 ### Base:
 
 - React
-
-### Libraries:
-
 - React-router-dom
 - React-query
 - axios
+- useHooks
 
 ### Additional:
 
+- useHooks
 - import alias (configure your vscode to non-relative import)
