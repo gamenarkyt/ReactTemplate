@@ -14,3 +14,7 @@
 
 - useHooks
 - import alias (configure your vscode to non-relative import)
+
+
+## Todo:
+- [ ] Add Roboto and Poppins Font
