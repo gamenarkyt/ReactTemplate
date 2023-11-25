@@ -18,3 +18,6 @@
 
 ## Todo:
 - [ ] Add Roboto and Poppins Font
+- [ ] Add sass 
+- [ ] Add svgr plugin 
+
