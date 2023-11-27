@@ -1,11 +1,12 @@
-import { Outlet } from "react-router-dom";
+import { Header } from "@/components/global/Header/Header"
+import { Outlet } from "react-router-dom"
 
 export const GlobalLayout = () => {
   return (
     <>
-      <div>Header</div>
+      <Header />
       <Outlet />
       <div>Footer</div>
     </>
-  );
-};
+  )
+}
