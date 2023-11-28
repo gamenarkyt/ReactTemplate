@@ -1,3 +1,3 @@
 export const SecondPage = () => {
-  return <div>SecondPage</div>;
-};
+  return <div>SecondPage</div>
+}
