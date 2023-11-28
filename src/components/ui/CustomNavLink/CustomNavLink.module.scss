@@ -1,0 +1,25 @@
+.root {
+  transition: all 0.2s;
+}
+
+.customnavlink {
+  color: white;
+}
+
+.customnavlink_active {
+  position: relative;
+  translate: 0 -2px;
+  color: green;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -0.35rem;
+    left: 50%;
+    translate: -50% 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: green;
+    border-radius: 50%;
+  }
+}
