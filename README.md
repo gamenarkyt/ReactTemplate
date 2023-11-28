@@ -15,9 +15,8 @@
 - useHooks
 - import alias (configure your vscode to non-relative import)
 
-
 ## Todo:
-- [ ] Add Roboto and Poppins Font
-- [ ] Add sass 
-- [ ] Add svgr plugin 
 
+- [x] Add Roboto and Poppins Font
+- [x] Add sass
+- [x] Add svgr plugin
