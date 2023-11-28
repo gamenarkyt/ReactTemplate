@@ -3,6 +3,8 @@
     "browser": true,
     "es2021": true
   },
+
+  "ignorePatterns": ["vite.config.ts"],
   "extends": [
     "standard-with-typescript",
     "plugin:react/recommended",
@@ -16,6 +18,12 @@
   "rules": {
     "prettier/prettier": "error", // Обязательно!! Подсвечивает ошибки из Prettier.
     "react/react-in-jsx-scope": "off",
-    "react/jsx-uses-react": "off"
+    "react/jsx-uses-react": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/triple-slash-reference": "off"
   }
 }
+
+
+// "typescript/explicit-function-return-type"
