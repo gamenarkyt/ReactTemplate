@@ -4,7 +4,6 @@
     "es2021": true
   },
   "extends": [
-    "eslint:recommend",
     "standard-with-typescript",
     "plugin:react/recommended",
     "prettier"
@@ -15,6 +14,8 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "prettier/prettier": "error" // Обязательно!! Подсвечивает ошибки из Prettier.
+    "prettier/prettier": "error", // Обязательно!! Подсвечивает ошибки из Prettier.
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
   }
 }
