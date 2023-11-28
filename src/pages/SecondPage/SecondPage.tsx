@@ -1,3 +1,7 @@
 export const SecondPage = () => {
-  return <div>SecondPage</div>
+  return (
+    <div>
+      <span>second page</span>
+    </div>
+  )
 }
