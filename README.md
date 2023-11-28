@@ -12,8 +12,11 @@
 
 ### Additional:
 
-- useHooks
+- useHooks library
 - import alias (configure your vscode to non-relative import)
+- svgr plugin for import svg image
+- reset css file (test version)
+- husky pre-commit hook (eslist and prettier analyze and fix before commit)
 
 ## Todo:
 
