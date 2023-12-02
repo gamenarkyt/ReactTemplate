@@ -9,7 +9,6 @@ interface IProps {
 export const CustomNavLink: FC<PropsWithChildren<IProps>> = ({
   children,
   to,
-  ...props
 }) => {
   const isMatch = useMatch(to)
   const _class = clsx(styles.root, {
