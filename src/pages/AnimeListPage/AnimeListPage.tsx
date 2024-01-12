@@ -1,9 +1,8 @@
 import { GlobalContext } from "@/contexts/GlobalContext"
-import { useContext, useState } from "react"
+import { useContext } from "react"
 
 export const AnimeListPage = () => {
   const globalContext = useContext(GlobalContext)
-  const [name, setName] = useState<string>("test")
   // useEffect(() => {
   //   const fetchData = async () => {
   //     const data = await whoami()

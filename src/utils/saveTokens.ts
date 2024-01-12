@@ -1,4 +1,4 @@
-import { IAuthTokens } from "@/services/shikimoriAuth"
+import { type IAuthTokens } from "@/services/shikimoriAuth"
 
 export const saveTokens = ({ access_token, refresh_token }: IAuthTokens) => {
   if (access_token && refresh_token) {
