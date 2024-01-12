@@ -1,5 +1,7 @@
 .root {
   transition: all 0.2s;
+  padding: 3px;
+  // border: 1px solid green;
 }
 
 .customnavlink {
@@ -9,7 +11,7 @@
 .customnavlink_active {
   position: relative;
   translate: 0 -2px;
-  color: green;
+  color: var(--accent);
 
   &::before {
     content: "";
@@ -19,7 +21,7 @@
     translate: -50% 0;
     width: 0.5rem;
     height: 0.5rem;
-    background-color: green;
+    background-color: var(--accent);
     border-radius: 50%;
   }
 }
