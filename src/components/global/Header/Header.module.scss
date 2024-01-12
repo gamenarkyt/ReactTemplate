@@ -6,15 +6,11 @@
   align-items: center;
   padding: 0 0.5rem;
 
-  background-color: var(--background-2);
+  background-color: red;
 
   .sitename {
     font-weight: bold;
     font-size: larger;
     font-family: "Roboto" sans-serif;
-  }
-
-  .sitename_accent {
-    color: var(--accent);
   }
 }

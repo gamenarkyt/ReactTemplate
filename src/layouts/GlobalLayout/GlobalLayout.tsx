@@ -1,5 +1,5 @@
-import { BottomNavigation } from "@/components/navigation/BottomNavigation/BottomNavigation"
-import { Header } from "@/components/navigation/Header/Header"
+import { BottomNavigation } from "@/components/global/BottomNavigation/BottomNavigation"
+import { Header } from "@/components/global/Header/Header"
 import { Outlet, ScrollRestoration } from "react-router-dom"
 
 export const GlobalLayout = () => {
