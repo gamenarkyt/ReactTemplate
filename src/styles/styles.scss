@@ -6,6 +6,12 @@ body {
   --background-2: #202127;
   --accent: #f56565;
   --accent-2: #8db5e3;
+
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,

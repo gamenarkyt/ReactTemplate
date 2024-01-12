@@ -1,0 +1,46 @@
+.newscard {
+  display: flex;
+  gap: 0.5rem;
+
+  background-color: var(--background-2);
+
+  .image {
+    width: 128px;
+    height: 180px;
+
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+
+  .rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .title {
+      width: 100%;
+      min-height: 1.5rem;
+      max-height: 3rem;
+      font-family: Droid Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      line-break: loose;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    .about {
+      width: 100%;
+      min-height: 4.5rem;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    .tags {
+    }
+  }
+}
