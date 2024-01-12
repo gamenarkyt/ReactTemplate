@@ -6,7 +6,9 @@ const _shikimoriApi = axios.create({
     "User-Agent": "ShikiLove",
     Accept: "application/json",
     "Content-Type": "application/json",
-    Authorization: `Bearer ${localStorage.getItem("access_token")}`,
+    Authorization: `Bearer ${
+      localStorage.getItem("access_token") || "expired"
+    }`,
   },
 })
 

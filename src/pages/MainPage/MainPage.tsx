@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export const MainPage = () => {
-  const [name] = useState<string>("test")
+  const [name, setName] = useState<string>("test")
   // useEffect(() => {
   //   const fetchData = async () => {
   //     const data = await whoami()
